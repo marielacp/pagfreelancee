@@ -1,0 +1,463 @@
+/*
+ * Estilos de tu proyecto
+ */
+/************** stylos for navegation********/
+*{
+    margin:0;
+    padding: 0;
+    
+}
+nav {
+    position:fixed;
+    /*outline: 2px solid red;*/
+    width: 100%;
+    height: 15%;
+    box-sizing: border-box;
+    color: #fff;
+    background-color:#2c3e50;
+    font-family: 'Montserrat', sans-serif;
+    top: 0%;
+ }
+.navmain{
+ /* outline: 2px solid blue;*/
+  padding:2%;
+  width: 100%;
+  height: 46%;
+}
+
+.navmain div{
+    padding: 2%;
+    margin-left: 8%;
+    display: inline;
+}
+
+.head-body{
+ /*outline: 2px solid blue;*/
+        padding: 1%;
+        border-radius: 6px;
+        text-decoration: none;
+        color:#fff;
+
+}
+.navmain div:first-child {
+  /*outline: 2px solid rgb(211, 211, 17);*/
+    font-size:32px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navmain div:nth-child(2){ 
+/* outline: 2px solid rgb(211, 211, 17);*/
+    padding-left: 18%;
+    text-transform: uppercase;
+}
+
+
+.head-body:hover {
+    color: #18bc9c;
+}
+
+.head-body:active {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+
+
+/************** stylos for header********/
+
+.fontcolor{
+ background-color: #18bc9c;
+ color:#fff;
+  text-align: center;
+ 
+}
+
+.startheader {
+    width: 100%;
+    height: 50%;
+    color: #fff;
+    padding-top: 14%;
+    text-align: center;
+    display: block;
+   
+}
+
+  header div:nth-child(3) {
+   /*   outline: 2px solid yellow;*/
+      font-size: 40px;
+      text-transform: uppercase;
+      font-weight: 900;
+      display: block;
+      width: 100%;
+      margin:2% 0 2%;
+}
+
+
+ header div:nth-child(5) {
+       font-size: 28px;
+      /*  outline: 2px solid rgb(0, 255, 115);*/
+        display: block;
+        width: 100%;
+        margin:2% 0 2%;
+        padding-bottom: 6%;
+}
+hr{
+    background: red;
+    width: 40px;
+    left: 50px;
+}
+
+
+.star-aling{
+    text-align: center;
+    display: block;
+}
+.star-aling i {
+    padding: 0%;
+    /* outline: 3px solid black;*/
+    top: 16%;
+    transform: translateY(20%);
+}
+.star-aling::after {
+    content: "---------------------------------------------------------------------------------";
+    font-size: 4px;
+    color: transparent;
+    background-color: #fff;
+    
+}
+
+.star-aling::before {
+    content: "----------------------------------------------------------------------------------";
+    font-size: 4px;
+    color: transparent;
+    background-color: #fff;
+    
+}
+
+/*Style for section*/
+        
+.portafol{
+    display: block;
+    position: absolute;
+    top:100%;
+}
+
+section h1{                  /**********************/
+text-align: center;
+font-size: 50px;
+text-transform: uppercase;
+padding:5% 0 1%;
+
+}
+
+.h1-color{
+    color:black;
+}
+
+.star-aling-1 {
+    text-align: center;
+    display: block;
+}
+
+.star-aling-1 i {
+    padding-bottom:0;
+    /* outline: 3px solid black;*/
+    top: 16%;
+    transform: translateY(20%);
+}
+
+.star-aling-1::after {
+    content: "---------------------------------------------------------------------------------";
+    font-size: 4px;
+    color: transparent;
+    background-color: rgb(8, 8, 8);
+}
+
+.star-aling-1::before {
+    content: "----------------------------------------------------------------------------------";
+    font-size: 4px;
+    color: transparent;
+    background-color: rgb(8, 6, 6);
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+    width: 88%;
+  /*  outline: 2px solid black;/****************************/
+    overflow: hidden;
+   
+   
+}
+
+figure img{
+    /* outline: 2px solid black;*/
+    width: 350px;
+    height:auto;
+    float: left;
+    margin: 1.5%;
+   
+}
+
+figure img:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+   
+}
+
+/* Style section two********************/
+.about {
+            display: block;
+            position: absolute;
+            top: 230%;
+           
+}
+
+.container .h1-color-2{
+ /*   background-color: red;*/
+    padding-top: 100px;
+}
+
+.table{
+    font-family: 'Lato', sans-serif;
+  /*   outline: 2px solid rgb(170, 15, 15);*/
+    
+}
+table{
+    width: 70%;
+ /*  outline: 2px solid rgb(170, 15, 15);*/
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    font-size: 20px;
+  
+    }
+.h1-color-2{
+        color:#fff;
+     /*    outline: 2px solid rgb(170, 15, 15);*/
+    }
+
+tbody tr td{
+    padding: 20px;
+    width: 25%;
+    border-spacing: 0;
+/*   outline: 2px solid rgb(15, 25, 170);*/
+    text-align: left;
+    vertical-align: top;
+}
+
+.container div div {
+    display: block;
+    font-size: 19px;
+    margin: 2% 0 9%;
+    /*outline: 2px solid rgb(170, 15, 15);*/
+    
+}
+div h4 {
+    padding: 11px;
+    background-color: #18bc9c;
+    border-radius: 6px;
+    border: 2px solid white;
+    display: inline-block;
+   /*outline: 2px solid rgb(170, 15, 15);*/
+}
+
+/***********************intento de formulario**************************/
+ .contact {
+ display: block;
+ position: absolute;
+ top: 320%;
+}
+html {
+    font-size: 16px;
+    font-family: Lato, sans-serif
+}
+
+.form-container {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+.input{
+box-sizing: border-box;
+/*outline: 1px solid blue;*/
+display: block;
+padding: 3% 0;
+width: 100%;
+margin:0;
+font-size: 25px;
+}
+
+.label{
+/*outline: 1px solid red;*/
+display: block;
+font-size: 13px;
+padding-top: 4%;
+}
+textarea{
+    width: 100%;
+    height: 3%;
+    border: 0;
+    padding-bottom: 7%;
+    outline: none;
+}
+
+/*r{
+    background: red;
+}
+*/
+
+.btn-submit {
+    padding: 1.5%;
+    margin: 3% 0 13%;
+    border: none;
+    font-weight:700;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #18bc9c;
+
+}
+
+.btn-submit:hover {
+    background-color:#065545;
+    color: #fff;    
+}
+
+.btn-submit:active{
+    border: 2.5px solid rgb(121, 233, 162);
+    background-color: rgb(4, 82, 32);
+ }
+
+
+hr{
+    width: 100%;
+    border:0.3px solid rgb(231, 225, 225);
+  
+}
+input{
+
+border:0;
+outline: none; /*Para quitarle el color al imput...*/
+
+}
+
+
+/*********************footer**************************/
+
+footer{
+    background-color:#2c3e50;
+    color: #fff;
+    text-align: center;
+  /*  outline: 2px solid rgb(9, 255, 0);*/
+    position: relative;
+    width: 100%;
+    height: 340px;
+   
+}
+
+
+.location,.social,.dates-freelancer{
+    position: absolute;
+   /* outline: 2px solid blue;*/
+    text-align: center;
+   
+  
+    }
+
+.location{
+    left: 10%;
+    width:18%;
+    top:18px;
+}
+
+.social{
+    left:39%;
+    width: 22%;
+    top:18px;
+   
+}
+
+.dates-freelancer{
+    left:65%;
+    width: 25%;
+    padding: 0%;
+    margin: 0%;
+    top:8px;
+}
+
+h3{
+    padding: 10% 0 10%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+   
+}
+
+.location-1{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.horizontal{
+position: absolute;
+width: 22%;
+/*outline: 2px solid blue;*/
+height: 100px;
+top: 31%;
+left: 50%;
+transform: translatex(-50%)
+}
+
+ol {
+    list-style: none;
+    line-height: 50px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    overflow: auto;
+}
+
+ol li i {
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-left: 4px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 11px;
+    padding-left: 2px;
+    font-size: 30px;
+}
+
+ol li {
+   
+    text-align: center;
+    float: left;
+    width: 15%;
+    height: 15%;
+    margin-left: 4%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+i:hover{
+    color:#18bc9c;
+    background-color: #fff;
+    transition: 0.3s;
+   
+}
+
+    li .hiper-start {
+    padding: 2%;
+    color: #fff;
+    display: in
+}
+.copyr {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    left: 50%;
+    transform: translatex(-50%);
+}
