@@ -4,14 +4,19 @@
    box-sizing: border-box;
 }
 
+body{
+    font-family: 'Lato', sans-serif,'Montserrat',
+    sans-serif;
+}
 
 .content{
 margin-left: auto;
 margin-right: auto;
-width: 66.5%;
-outline: 2px solid red;
+width: 53%;
+/*outline: 2px solid red;*/
 text-align: center;
 margin-bottom: 4%;
+text-align: center;
 
 }
 
@@ -25,24 +30,28 @@ margin-bottom: 4%;
       /* outline: 3px solid black;*/
       top: 16%;
       transform: translateY(23%);
+      color:#343a40;
   }
 
   .star-aling-1::after {
       content: "---------------------------------------------------------------------------------";
       font-size: 4px;
       color: transparent;
-      background-color: rgb(8, 8, 8);
+      background-color: #343a40;
   }
 
   .star-aling-1::before {
       content: "----------------------------------------------------------------------------------";
       font-size: 4px;
       color: transparent;
-      background-color: rgb(8, 6, 6);
+      background-color: #343a40;
   }
 
 img{
     margin: 3% 0 3%;
+    width: 715px;
+    height: auto;
+
   }
 
 .content div p{
@@ -52,26 +61,14 @@ img{
 
 ol{
     list-style: none;
-    margin: 1% 0 6%;
+    margin: 5% 0 6%;
     line-height: 25px;
 }
 
-
-.clos{
-    display: inline-block;
-   /* outline: 2px solid blue;*/
-}
-span {
-   /* outline: 2px solid blue;*/
-    padding: 1% ;
-    background-color: cyan;
-    
-
-}
-
 .name{
-font-size:50px;
+font-size:45px;
 margin-top: 16%;
+font-weight: bold;
 
 }
 .information{
@@ -89,4 +86,34 @@ color:#18bc9c
 .img img{
     width: 55px;
     height: 55px;
+}
+
+
+
+
+.close{
+    display: inline-block;
+    
+}
+
+.bottom{
+     padding: 1% 2% 1%;
+     margin: 3% 0 13%;
+     border: none;
+     font-weight: 700;
+     font-size: 15px;
+     color: #fff;
+     border-radius: 6px;
+      background-color: #18bc9c;
+     color: #fff;
+     text-decoration:none;
+}
+
+.bottom:hover{
+   background-color:#065545;
+   color: #fff;
+}
+.bottom:active {
+    border: 2.5px solid rgb(121, 233, 162);
+    background-color: rgb(4, 82, 32);
 }
